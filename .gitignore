@@ -1,0 +1,29 @@
+﻿# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Arquivos Python temporários
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Configurações locais do VS Code
+.vscode/
+
+# Credenciais do Streamlit
+.streamlit/secrets.toml
+
+# Caches
+.cache/
+.streamlit/cache/
+
+# Dados brutos da CVM
+data/raw/*.zip
+data/raw/csv/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
