@@ -27,3 +27,8 @@ data/raw/csv/
 # Sistema operacional
 .DS_Store
 Thumbs.db
+data/raw/meta/
+# Dados de entrada e arquivos intermediários (não versionar)
+data/raw/
+data/processed/*
+!data/processed/indicadores_financeiros_2021_2023.csv
